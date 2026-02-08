@@ -153,6 +153,7 @@ Error generating stack: `+o.message+`
           width: 100%;
           border: none;
           display: block;
+          min-height: 280px;
         }
 
         .explorer-cta-wrapper {
@@ -366,6 +367,10 @@ Error generating stack: `+o.message+`
         }
 
         @media (max-width: 600px) {
+          .explorer-section {
+            padding: 80px 8px;
+          }
+
           .explorer-title,
           .how-it-works-title {
             font-size: 28px;
